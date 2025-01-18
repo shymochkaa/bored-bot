@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #dec59e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom,
+            #b0dab9,
+            #dec59e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom,
+            #b0dab9,
+            #dec59e);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-size: 16px;
+    font-family: "Nunito", serif;
+    color: #3d2e25;
+}
+
+/* Typography */
+
+.app-title {
+    font-family: "Lilita One", serif;
+    color: #3d2e25;
+}
+
+.idea-container {
+    font-size: 1.125em;
+    /* 18px*/
+    font-weight: 700;
+    /* bold */
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+/* Layout */
+
+.container {
+    width: 60vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.app-title {
+    margin: 2em 0 0 0;
+}
+
+.idea-container {
+    margin: 1em 0 1em 0;
+}
+
+.generate-idea-btn {
+    font-size: 1.5rem;
+    background-color: #3d2e25;
+    color: #dec59e;
+    border: none;
+    border-radius: 10px;
+    padding: 0.5em 1em;
+    margin: 0.5em 1em;
+}
+
+.generate-idea-btn:hover,
+.generate-idea-btn:focus {
+    background-color: #553f25;
+}
